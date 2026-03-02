@@ -1,0 +1,8 @@
+MessageId: 20230727150603.c2011bfd5c8933f6@mg.areafellowship.com
+Created at: 7/27/2023, 6:06:03 PM GMT+3
+From: CoinDesk <coindesk@mg.areafellowship.com>
+To: phishing@pot
+Subject: More benefits from Ripple with the Allocation Program
+SPF: pass
+DKIM: pass
+DMARC: bestguesspass
