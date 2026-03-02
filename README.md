@@ -1,5 +1,5 @@
 # Future_CS_02
-# Phishing Email Detection & Awareness System 🔍
+# Phishing Email Detection & Awareness System 
 **Cybersecurity Task 2 | Future Interns (2026)**
 
 ## 📌 Project Overview
@@ -34,5 +34,5 @@ This task highlighted that **technical filters are not foolproof.** Even when an
 
 ---
 **Author:** Denise Mutayi  
-**Role:** Cybersecurity & Cloud Operations Intern  
-**Connect with me:** [Insert your LinkedIn Profile Link Here]
+**Role:** Cybersecurity Intern  
+
