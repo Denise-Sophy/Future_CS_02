@@ -26,4 +26,4 @@ I analyzed three distinct phishing samples to showcase a broad range of threats:
 
 ---
 **Author:** Denise Mutayi  
-**Role:** Cybersecurity & Cloud Operations Intern  
+**Role:** Cybersecurity Intern  
