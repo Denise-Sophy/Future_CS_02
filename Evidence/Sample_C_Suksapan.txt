@@ -1,0 +1,8 @@
+MessageId: 481485b6-1e17-4ac0-aa95-77fd08bac8b8@DM6NAM10FT113.eop-nam10.prod.protection.outlook.com
+Created at: 8/1/2023, 7:09:24 PM GMT+3
+From: shore@suksapan.or.th
+To: Recipients <shore@suksapan.or.th>
+Subject: Hi
+SPF: softfail
+DKIM: none
+DMARC: none
