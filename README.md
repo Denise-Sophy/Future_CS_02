@@ -1,38 +1,29 @@
-# Future_CS_02
 # Phishing Email Detection & Awareness System 
 **Cybersecurity Task 2 | Future Interns (2026)**
 
-## 📌 Project Overview
-Phishing remains one of the most prevalent threats in the modern cyber landscape. This project focuses on the role of a **Security Analyst** in identifying, analyzing, and mitigating phishing attacks through technical investigation and employee awareness.
+##  Project Overview
+This project demonstrates the analytical workflow of a Security Analyst in identifying and mitigating phishing threats. By analyzing real-world samples, I have documented the technical indicators used by attackers to bypass modern email security filters.
 
-The goal of this project was to analyze real-world phishing samples, dissect their technical headers, and produce a professional awareness report to educate non-technical users on identifying malicious intent.
+## Objectives
+* **Header Investigation:** Analyzing SPF, DKIM, and DMARC records to verify sender legitimacy.
+* **Attack Archetyping:** Identifying different phishing methods (Look-alike domains, Authorized Spoofing, and Account Takeovers).
+* **Risk Mitigation:** Developing a corporate-ready awareness report to reduce the human-element risk.
 
-## 🎯 Objectives
-* **Technical Analysis:** Investigate email headers (SPF, DKIM, DMARC) to verify sender authenticity.
-* **Indicator Identification:** Identify common social engineering triggers (Urgency, Greed, Fear).
-* **Risk Classification:** Categorize threats based on technical and contextual markers.
-* **Awareness Education:** Create a "Client-Ready" report for corporate security training.
+## Analysis Summary: The Three Archetypes
+I analyzed three distinct phishing samples to showcase a broad range of threats:
+1. **The "Fake" (Microsoft):** Total authentication failure using a typosquatted domain.
+2. **The "Sneaky" (Ripple/CoinDesk):** A "Pass" on SPF/DKIM by leveraging a compromised 3rd-party mail server.
+3. **The "Hacked" (Suksapan):** A Business Email Compromise (BEC) scenario where a legitimate account was hijacked to send spam.
 
-## 🛠️ Tools & Technologies Used
-* **Google Admin Toolbox:** Used for deep-dive Message Header analysis.
-* **MXToolbox:** Utilized for DNS lookup and SPF/DKIM/DMARC verification.
-* **URLScan.io / VirusTotal:** (Research) For safe inspection of malicious URLs and domain reputation.
-* **GitHub:** Version control and project documentation.
+## Tools Used
+* **Google Admin Toolbox / MXToolbox:** For deep-dive header analysis.
+* **VirusTotal:** For domain and IP reputation checks.
+* **Markdown/PDF:** For professional reporting.
 
-## 📂 Repository Structure
-* `Phishing_Detection_Report.pdf`: The final professional awareness document.
-* `/Evidence`: Contains the raw headers and analysis notes for the investigated samples.
-* `README.md`: Project summary and methodology.
-
-## 🧪 Analysis Summary
-This project analyzed two distinct attack vectors:
-1.  **Credential Harvesting (Microsoft Impersonation):** A high-risk attack failing all authentication protocols (SPF/DKIM/DMARC).
-2.  **Authorized Spoofing (Crypto Allocation Scam):** A sophisticated attack that passed technical checks by using a compromised third-party mailing service.
-
-## 💡 Key Takeaways
-This task highlighted that **technical filters are not foolproof.** Even when an email passes SPF/DKIM checks, the content and intent must be scrutinized. Effective cybersecurity is a combination of robust systems and an informed, skeptical workforce.
+## Repository Contents
+* `Phishing_Detection_Report.pdf`: The full analysis and employee guidelines.
+* `/Evidence`: Raw header data and technical logs for the three samples.
 
 ---
 **Author:** Denise Mutayi  
-**Role:** Cybersecurity Intern  
-
+**Role:** Cybersecurity & Cloud Operations Intern  
